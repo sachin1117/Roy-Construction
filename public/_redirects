@@ -1,0 +1,5 @@
+# Netlify SPA redirect — all routes fall through to index.html
+/*    /index.html   200
+
+# Redirect www to non-www (canonical)
+https://www.royconstruction.in/*    https://royconstruction.in/:splat    301!

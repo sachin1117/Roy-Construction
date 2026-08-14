@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --ruler-tick-color: rgba(30, 64, 175, 0.35);
+  --ruler-major-tick: #0F3876;
+  --blueprint-line: rgba(37, 99, 235, 0.07);
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #F8FAFC;
+  color: #0F172A;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.font-mono-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Light Architectural Blueprint Grid Pattern */
+.bg-blueprint-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, var(--blueprint-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--blueprint-line) 1px, transparent 1px);
+}
+
+.bg-blueprint-grid-dense {
+  background-size: 16px 16px;
+  background-image: 
+    linear-gradient(to right, rgba(37, 99, 235, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(37, 99, 235, 0.05) 1px, transparent 1px);
+}
+
+/* Spirit Level Widget Visuals */
+.spirit-level-container {
+  background: linear-gradient(180deg, #FFFFFF 0%, #EFF6FF 100%);
+  box-shadow: 0 4px 15px rgba(15, 56, 118, 0.08), inset 0 1px 2px rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+.spirit-level-bubble {
+  background: radial-gradient(circle at 35% 35%, #FDE047 0%, #EAB308 70%, #CA8A04 100%);
+  box-shadow: 0 0 10px rgba(234, 179, 8, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* Realistic Metric Ruler Tape Visuals */
+.ruler-tape {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F1F5F9 50%, #E2E8F0 100%);
+  border-top: 3px solid #0F3876;
+  border-bottom: 2px solid #CBD5E1;
+}
+
+.ruler-tick-mm {
+  width: 1px;
+  height: 8px;
+  background-color: var(--ruler-tick-color);
+}
+
+.ruler-tick-half {
+  width: 1.5px;
+  height: 14px;
+  background-color: #2563EB;
+}
+
+.ruler-tick-major {
+  width: 2px;
+  height: 22px;
+  background-color: var(--ruler-major-tick);
+}
+
+/* Sleek Blue & White Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+  border: 2px solid #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0F3876;
+}
+
+/* Reduced Motion Utility */
+.reduced-motion * {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Glassmorphism Accents */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-panel-blue {
+  background: rgba(239, 246, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(191, 219, 254, 0.8);
+}
+
+/* Construction Tape Strip Accent */
+.caution-strip {
+  background: repeating-linear-gradient(
+    -45deg,
+    #F59E0B,
+    #F59E0B 12px,
+    #0F3876 12px,
+    #0F3876 24px
+  );
+}
