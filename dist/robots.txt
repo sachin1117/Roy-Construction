@@ -14,5 +14,5 @@ User-agent: *
 Allow: /
 
 # Direct Sitemaps Link
-Sitemap: https://royconstruction.in/sitemap.xml
+Sitemap: https://roy-construction-rose.vercel.app/sitemap.xml
 Host: https://royconstruction.in

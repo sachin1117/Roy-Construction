@@ -3,56 +3,56 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://royconstruction.in/</loc>
+    <loc>https://roy-construction-rose.vercel.app/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://royconstruction.in/"/>
-    <xhtml:link rel="alternate" hreflang="bn-IN" href="https://royconstruction.in/#for-workers"/>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://roy-construction-rose.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="bn-IN" href="https://roy-construction-rose.vercel.app/#for-workers"/>
     <image:image>
-      <image:loc>https://royconstruction.in/favicon.svg</image:loc>
+      <image:loc>https://roy-construction-rose.vercel.app/favicon.svg</image:loc>
       <image:title>Roy Construction Bally Howrah - Surendra Roy and Sachin Kumar</image:title>
       <image:caption>40 Years of Civil Construction and Labour Contracting in Bally, Howrah</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://royconstruction.in/#about</loc>
+    <loc>https://roy-construction-rose.vercel.app/#about</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://royconstruction.in/#services</loc>
+    <loc>https://roy-construction-rose.vercel.app/#services</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://royconstruction.in/#calculator</loc>
+    <loc>https://roy-construction-rose.vercel.app/#calculator</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://royconstruction.in/#for-workers</loc>
+    <loc>https://roy-construction-rose.vercel.app/#for-workers</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://royconstruction.in/#service-area</loc>
+    <loc>https://roy-construction-rose.vercel.app/#service-area</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://royconstruction.in/#faq</loc>
+    <loc>https://roy-construction-rose.vercel.app/#faq</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://royconstruction.in/#contact</loc>
+    <loc>https://roy-construction-rose.vercel.app/#contact</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
