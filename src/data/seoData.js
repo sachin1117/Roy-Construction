@@ -24,7 +24,7 @@ export const SEO_CONFIG = {
     }
   ],
   contact: {
-    phone: "+919830582419",
+    phone: "+919875393369",
     displayPhone: "+91 9875393369",
     email: "RoyConstruction.in@gmail.com",
   },
